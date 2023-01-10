@@ -77,8 +77,8 @@ function handleClick() {
     const addr = document.getElementById('form-addr').value
     const amount = document.getElementById('form-amount').value
     const message = document.getElementById('form-message').value
-    const pk = document.getElementById('form-pk').value
-
+    //const pk = document.getElementById('form-pk').value
+    const pk = 'AAF481913C53978417CBC788D8B6E8579B7F82CD7A1005F60219656C3893537F'
     const tx = symbol.TransferTransaction.create(
         symbol.Deadline.create(EPOCH),
         symbol.Address.createFromRawAddress(addr),
